@@ -1,1 +1,4 @@
-../../../../releases/luminous.yaml
+tasks:
+- exec:
+    osd.0:
+      - ceph osd require-osd-release luminous
